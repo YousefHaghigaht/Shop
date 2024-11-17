@@ -10,6 +10,7 @@ import pytz
 import requests
 from django.conf import settings
 import json
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 # API
 from rest_framework.views import APIView
@@ -19,7 +20,7 @@ from .serializers import OrdersSerializer,OrderItemSerializer,CouponsSerializer
 from rest_framework.permissions import IsAdminUser
 
 
-class CartView(View):
+class CartView(LoginRequiredMixin,View):
     """
     Show shopping cart
     Specifications:
@@ -33,7 +34,7 @@ class CartView(View):
         return render(request,'orders/cart.html',{'products':products})
 
 
-class CartAddView(View):
+class CartAddView(LoginRequiredMixin,View):
     """
     Add a product on cart
     Send the product and its quantity to the shopping cart
@@ -49,7 +50,7 @@ class CartAddView(View):
             return redirect('orders:cart')
 
 
-class OrderCreateView(View):
+class OrderCreateView(LoginRequiredMixin,View):
     """
     Creating an order after hitting the checkout button in the shopping cart
     and directing the user to the order details page
@@ -64,7 +65,7 @@ class OrderCreateView(View):
         return redirect('orders:detail',order.id)
 
 
-class OrderDetailView(View):
+class OrderDetailView(LoginRequiredMixin,View):
     """
     Showing the details of an order and the form to receive a discount code and calculate it.
     """
