@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <!-- Start Top Search -->
+    <div class="top-search">
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Search -->
+
+    <!-- Start All Title Box -->
+    <div class="all-title-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Cart</h2>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                        <li class="breadcrumb-item active">Cart</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End All Title Box -->
+
+    <!-- Start Cart  -->
+    <div class="cart-box-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="table-main table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Images</th>
+                                    <th>Product Name</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total</th>
+                                    <th>Remove</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            {% for product in products %}
+                                <tr>
+                                    <td class="thumbnail-img">
+                                        <a href="#">
+									<img class="img-fluid" src="{{ product.product.image.url}}" alt="" />
+								        </a>
+                                    </td>
+                                    <td class="name-pr">
+                                        <a href="#">
+                                            {{ product.product.name }}
+								        </a>
+                                    </td>
+                                    <td class="price-pr">
+                                        <p>${{product.price }}</p>
+                                    </td>
+                                    <td class="quantity-box">{{ product.quantity }}</td>
+                                    <td class="total-pr">
+                                        <p>${{product.total_price }}</p>
+                                    </td>
+                                    <td class="remove-pr">
+                                        <a href="{% url 'orders:remove_product' product.product.id %}">
+									<i class="fas fa-times"></i>
+								        </a>
+                                    </td>
+
+
+                                </tr>
+                            {% endfor %}
+                                <tr class="item">
+                                    <td class="price-pr">
+                                        Total
+                                    </td>
+                                    <td colspan="3"></td>
+                                    <td>${{ products.get_total_price }}</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <a href="{% url 'orders:create' %}" class="ml-auto btn hvr-hover">Checkout</a>
+
+
+        </div>
+    </div>
+    <!-- End Cart -->
+
+    <!-- Start copyright  -->
+    <div class="footer-copyright">
+        <p class="footer-company">All Rights Reserved. &copy; 2018 <a href="#">ThewayShop</a> Design By :
+            <a href="https://html.design/">html design</a></p>
+    </div>
+    <!-- End copyright  -->
+
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+{% endblock %}
+

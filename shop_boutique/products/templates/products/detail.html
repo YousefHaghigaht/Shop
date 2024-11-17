@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block link %}
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <link href="{% static 'css/product_detail.css' %}" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
+{% endblock %}
+
+{% block content %}
+    <main class="container">
+
+      <!-- Left Column / Headphones Image -->
+
+        <img  src="{{ product.image.url }}" style="width: 300px;" alt="">
+
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <h1>{{ product.name }}</h1>
+          <p>{{ product.description }}</p>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+
+            <!-- Product Pricing -->
+            <div class="product-price">
+              <span>148$</span>
+            </div>
+        </div>
+      </div>
+    </main>
+    <br><br>
+    <form action="{% url 'orders:add_to_cart' product.id %}" method="post" class=" col-md-2">
+        {% csrf_token %}
+        {{ form.as_table }}
+        <input type="submit" value="Add To Cart" class="btn btn-danger">
+    </form>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="{% static 'js/product_detail.js' %}" charset="utf-8"></script>
+  {% endblock %}
+
