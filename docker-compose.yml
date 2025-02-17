@@ -1,0 +1,35 @@
+services:
+  db:
+    container_name: db
+    image: postgres:17.2
+    networks: 
+      - shop
+    volumes:
+      - shop:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_DB=shop_boutique
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"
+    restart: always
+    
+  app:
+    container_name: app
+    build: .
+    command: sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    networks:
+      - shop
+    depends_on:
+      - db
+    restart: always
+    volumes:
+      - .:/src/
+    ports:
+      - "8000:8000"
+    
+networks: 
+  shop:
+volumes:
+  shop:
+      
