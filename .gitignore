@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/django
 # Edit at https://www.toptal.com/developers/gitignore?templates=django
 
@@ -172,3 +173,11 @@ cython_debug/
 #.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/django
+=======
+  venv/
+  __pycache__/
+   *.py[cod]
+   *.sqlite3
+   .env
+   .DS_Store 
+>>>>>>> 42742f5b68e32735933442cf0184d71c289b9b90

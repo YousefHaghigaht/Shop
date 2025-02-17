@@ -1,0 +1,358 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-16 19:18+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: accounts/templates/accounts/login.html:8
+msgid "New password"
+msgstr "Yeni Şifre"
+
+#: accounts/templates/accounts/login.html:12
+msgid "New password confirmation"
+msgstr "Yeni şifre onayı"
+
+#: accounts/templates/accounts/login.html:16
+msgid "Save"
+msgstr "kaydetmek"
+
+#: accounts/templates/accounts/password_reset_complete.html:5
+msgid "Your password changed."
+msgstr "Şifreniz değişti."
+
+#: accounts/templates/accounts/password_reset_confirm.html:7
+msgid "Phone number"
+msgstr "Telefon numarası"
+
+#: accounts/templates/accounts/password_reset_confirm.html:11
+msgid "Password"
+msgstr "Şifre"
+
+#: accounts/templates/accounts/password_reset_confirm.html:15
+#: accounts/templates/accounts/password_reset_form.html:13
+msgid "Send"
+msgstr "Göndermek"
+
+#: accounts/templates/accounts/password_reset_confirm.html:16
+msgid "Forget Password"
+msgstr "Şifreyi Unut"
+
+#: accounts/templates/accounts/password_reset_done.html:5
+msgid "We send a code to your email."
+msgstr "E-postanıza bir kod gönderiyoruz.vvv"
+
+#: accounts/templates/accounts/password_reset_form.html:9
+msgid "Email"
+msgstr "E-posta"
+
+#: home/templates/home/home.html:15
+msgid "Welcome To"
+msgstr "Hoş Geldiniz"
+
+#: home/templates/home/home.html:15 home/templates/home/home.html:27
+#: home/templates/home/home.html:39
+msgid "Thewayshop"
+msgstr "Mağaza"
+
+#: home/templates/home/home.html:16
+msgid ""
+"See how your users experience your website in realtime or view <br> trends "
+"to see any changes in performance over time."
+msgstr "Kullanıcılarınızın web sitenizi gerçek zamanlı olarak nasıl deneyimlediklerini görün veya <br> trendleri görüntüleyin "
+"zaman içinde performanstaki değişiklikleri görmek için."
+
+#: home/templates/home/home.html:17 home/templates/home/home.html:29
+msgid "Shop New"
+msgstr "Yeni Alışveriş"
+
+#: home/templates/home/home.html:28
+msgid "See how your users experience your website in realtime or view"
+msgstr "Kullanıcılarınızın web sitenizi gerçek zamanlı olarak nasıl deneyimlediğini görün veya görüntüleyin"
+
+#: home/templates/home/home.html:28 home/templates/home/home.html:40
+msgid "trends to see any changes in performance over time."
+msgstr "zaman içinde performansta herhangi bir değişiklik görmek için eğilimler."
+
+#: home/templates/home/home.html:40
+msgid "See how your users experience your website in realtime or view "
+msgstr "Kullanıcılarınızın web sitenizi gerçek zamanlı olarak nasıl deneyimlediğini görün veya görüntüleyin"
+
+#: home/templates/home/home.html:60
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: home/templates/home/home.html:86
+msgid "Liked products"
+msgstr "Beğenilen ürünler"
+
+#: home/templates/home/home.html:106 home/templates/home/home.html:141
+#: products/templates/products/products_list.html:35
+msgid "Add to Cart"
+msgstr "Sepete ekle"
+
+#: home/templates/home/home.html:121
+msgid "Popular products"
+msgstr "Popüler ürünler"
+
+#: home/templates/home/home.html:159
+msgid "latest blog"
+msgstr "son blog"
+
+#: home/templates/home/home.html:160
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus "
+"enim."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus "
+"enim."
+
+#: home/templates/home/home.html:172 home/templates/home/home.html:190
+#: home/templates/home/home.html:208
+msgid "Fusce in augue non nisi fringilla"
+msgstr "Augue non nisi fringilla'da Fusce"
+
+#: home/templates/home/home.html:173 home/templates/home/home.html:191
+#: home/templates/home/home.html:209
+msgid ""
+"Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit "
+"amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus "
+"cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis."
+msgstr "Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit "
+"amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus "
+"Lanet olsun nunc sed mollis. Praesent laoreet lacinia elit id lobortis."
+
+#: home/templates/home/home.html:317
+msgid "All Rights Reserved. &copy; 2018"
+msgstr "Her hakkı saklıdır. &kopyala; 2018"
+
+#: home/templates/home/home.html:317 orders/templates/orders/cart.html:104
+msgid "ThewayShop"
+msgstr "mağaza"
+
+#: home/templates/home/home.html:317 orders/templates/orders/cart.html:104
+msgid " Design By :"
+msgstr "Tasarım:"
+
+#: home/templates/home/home.html:318 orders/templates/orders/cart.html:105
+msgid "html design"
+msgstr "HTML tasarımı"
+
+#: orders/templates/orders/cart.html:25
+#: orders/templates/orders/checkout.html:13
+msgid "Shop"
+msgstr "Mağaza"
+
+#: orders/templates/orders/cart.html:26
+msgid "Cart"
+msgstr "Sepet"
+
+#: orders/templates/orders/cart.html:43
+msgid "Images"
+msgstr "Görseller"
+
+#: orders/templates/orders/cart.html:44
+msgid "Product Name"
+msgstr "Ürün Adı"
+
+#: ors/templates/orders/cart.html:45
+msgid "Price"
+msgstr "Fiyat"
+
+#: orders/templates/orders/cart.html:46
+#: products/templates/products/detail.html:45
+msgid "Quantity"
+msgstr "Miktar"
+
+#: orders/templates/orders/cart.html:47
+#: orders/templates/orders/checkout.html:53
+msgid "Total"
+msgstr "Toplam"
+
+#: orders/templates/orders/cart.html:48
+msgid "Remove"
+msgstr "Kaldırmak"
+
+#: orders/templates/orders/cart.html:95
+#: orders/templates/orders/checkout.html:14
+msgid "Checkout"
+msgstr "Çıkış yapmak"
+
+#: orders/templates/orders/cart.html:104
+msgid "All Rights Reserved. &copy; 2018 "
+msgstr "Her hakkı saklıdır. &kopyala; 2018"
+
+#: orders/templates/orders/checkout.html:32
+msgid "Shopping cart"
+msgstr "Alışveriş Sepeti"
+
+#: orders/templates/orders/checkout.html:38
+msgid "Qty:"
+msgstr "Miktar:"
+
+#: orders/templates/orders/checkout.html:39
+msgid " Subtotal:"
+msgstr "Ara toplam"
+
+#: orders/templates/orders/checkout.html:49
+msgid "Your order"
+msgstr "Siparişiniz"
+
+#: orders/templates/orders/checkout.html:52
+msgid "Product"
+msgstr "Ürün"
+
+#: orders/templates/orders/checkout.html:57
+msgid "Sub Total"
+msgstr "Ara Toplam"
+
+#: orders/templates/orders/checkout.html:85
+msgid "Pay"
+msgstr "Ödemek"
+
+#: products/templates/products/detail.html:15
+msgid "Like"
+msgstr "Beğenmek"
+
+#: products/templates/products/detail.html:49
+msgid "Add to cart"
+msgstr "Sepete ekle"
+
+#: products/templates/products/detail.html:58
+msgid "Users Comments"
+msgstr "Kullanıcı Yorumları"
+
+#: products/templates/products/products_list.html:6
+msgid "All"
+msgstr "Tüm"
+
+#: templates/404.html:11
+msgid "Page not found"
+msgstr "Sayfa bulunamadı"
+
+#: templates/base.html:13
+msgid "Shop online by django"
+msgstr "Django ile çevrimiçi alışveriş yapın"
+
+#: templates/inc/footer.html:8
+msgid "About"
+msgstr "Hakkında"
+
+#: templates/inc/footer.html:9
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+"quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo "
+"consequat."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"geçici olay ut emek ve dolore magna aliqua. Ut enim ad minim veniam, "
+"quis nostrud egzersiz ullamco Laboris nisi ut aliquip ex ea commodo "
+"sonucu."
+
+#: templates/inc/footer.html:24
+msgid "Information"
+msgstr "Bilgi"
+
+#: templates/inc/footer.html:26 templates/inc/header.html:21
+msgid "About Us"
+msgstr "Hakkımızda"
+
+#: templates/inc/footer.html:27
+msgid "Customer Service"
+msgstr "Müşteri Hizmetleri"
+
+#: templates/inc/footer.html:28
+msgid "Our Sitemap"
+msgstr "Site Haritamız"
+
+#: templates/inc/footer.html:29
+msgid "Terms &amp; Conditions"
+msgstr "Şartlar ve Şartlar Koşullar"
+
+#: templates/inc/footer.html:30
+msgid "Privacy Policy"
+msgstr "Gizlilik Politikası"
+
+#: templates/inc/footer.html:31
+msgid "Delivery Information"
+msgstr "Teslimat Bilgileri"
+
+#: templates/inc/footer.html:37 templates/inc/header.html:24
+msgid "Contact Us"
+msgstr "Bize Ulaşın"
+
+#: templates/inc/footer.html:42
+msgid
+
+"                                        Address: Michael I. Days 3756 <br>\n"
+"                                        Preston Street Wichita,<br>\n"
+"                                        KS 67213\n"
+"                                    "
+msgstr ""
+
+#: templates/inc/header.html:20
+msgid "Home"
+msgstr "Ev"
+
+#: templates/inc/header.html:22
+msgid "Products"
+msgstr "Ürünler"
+
+#: templates/inc/header.html:23
+msgid "Our Service"
+msgstr "Hizmetimiz"
+
+#: templates/inc/main_top.html:11 templates/inc/main_top.html:23
+#, python-format
+msgid "Off 10%! Shop Now Man"
+msgstr "%10 indirim! Şimdi Alışveriş Yap dostum"
+
+#: templates/inc/main_top.html:14 templates/inc/main_top.html:26
+#, python-format
+msgid "50%% - 80%% off on Fashion"
+msgstr "Modada %%50 - %%80 indirim"
+
+#: templates/inc/main_top.html:17 templates/inc/main_top.html:29
+#, python-format
+msgid "20%% off Entire Purchase Promo code: offT20"
+msgstr "Tüm Satın Alma Promosyon kodunda %%20 indirim: offT20"
+
+#: templates/inc/main_top.html:20 templates/inc/main_top.html:32
+#, python-format
+msgid "Off 50%%! Shop Now"
+msgstr "%%50 indirim! Şimdi Alışveriş Yapın"
+
+#: templates/inc/main_top.html:41
+msgid "¥ JPY"
+msgstr ""
+
+#: templates/inc/main_top.html:42
+msgid "$ USD"
+msgstr ""
+
+#: templates/inc/main_top.html:43
+msgid "€ EUR"
+msgstr ""
+
+#: templates/inc/main_top.html:53
+msgid "Logout"
+msgstr "Oturumu kapat"
+
+#: templates/inc/main_top.html:56
+msgid "Register"
+msgstr "Kayıt olmak"
+
+#: templates/inc/main_top.html:57
+msgid "Login"
+msgstr "Giriş yapmak"

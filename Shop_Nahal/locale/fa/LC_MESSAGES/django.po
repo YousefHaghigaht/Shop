@@ -1,0 +1,371 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-16 19:35+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: accounts/templates/accounts/login.html:8
+msgid "New password"
+msgstr "رمز عبور جدید"
+
+#: accounts/templates/accounts/login.html:12
+msgid "New password confirmation"
+msgstr "رمز عبور جدید را مجدد وارد کنید."
+
+#: accounts/templates/accounts/login.html:16
+msgid "Save"
+msgstr "ذخیره"
+
+#: accounts/templates/accounts/password_reset_complete.html:5
+msgid "Your password changed."
+msgstr "رمز عبور شما تغییر یافت"
+
+#: accounts/templates/accounts/password_reset_confirm.html:7
+msgid "Phone number"
+msgstr "شماره تلفن"
+
+#: accounts/templates/accounts/password_reset_confirm.html:11
+msgid "Password"
+msgstr "رمز عبور"
+
+#: accounts/templates/accounts/password_reset_confirm.html:15
+#: accounts/templates/accounts/password_reset_form.html:13
+msgid "Send"
+msgstr "ارسال"
+
+#: accounts/templates/accounts/password_reset_confirm.html:16
+msgid "Forget Password"
+msgstr "فراموشی رمز عبور"
+
+#: accounts/templates/accounts/password_reset_done.html:5
+msgid "We send a code to your email."
+msgstr "ما یک کد به ایمیل شما ارسال کردیم."
+
+#: accounts/templates/accounts/password_reset_form.html:9
+msgid "Email"
+msgstr "ایمیل"
+
+#: home/templates/home/home.html:15
+msgid "Welcome To"
+msgstr "خوش آمدید به"
+
+#: home/templates/home/home.html:15 home/templates/home/home.html:27
+#: home/templates/home/home.html:39
+msgid "Thewayshop"
+msgstr "فروشگاه"
+
+#: home/templates/home/home.html:16
+msgid ""
+"See how your users experience your website in realtime or view <br> trends "
+"to see any changes in performance over time."
+msgstr "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+
+#: home/templates/home/home.html:17 home/templates/home/home.html:29
+msgid "Shop New"
+msgstr "فروشگاه جدید"
+
+#: home/templates/home/home.html:28
+msgid "See how your users experience your website in realtime or view"
+msgstr "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+
+#: home/templates/home/home.html:28 home/templates/home/home.html:40
+msgid "trends to see any changes in performance over time."
+msgstr "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+
+#: home/templates/home/home.html:40
+msgid "See how your users experience your website in realtime or view "
+msgstr "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+
+#: home/templates/home/home.html:60
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#: home/templates/home/home.html:86
+msgid "Liked products"
+msgstr "محصولات پسندیده"
+
+#: home/templates/home/home.html:106 home/templates/home/home.html:141
+#: products/templates/products/products_list.html:35
+msgid "Add to Cart"
+msgstr "اضافه به سبد خرید"
+
+#: home/templates/home/home.html:121
+msgid "Popular products"
+msgstr "محصولات محبوب"
+
+#: home/templates/home/home.html:159
+msgid "latest blog"
+msgstr "آخرین مقالات"
+
+#: home/templates/home/home.html:160
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus "
+"enim."
+msgstr "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+
+#: home/templates/home/home.html:172 home/templates/home/home.html:190
+#: home/templates/home/home.html:208
+msgid "Fusce in augue non nisi fringilla"
+msgstr "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+
+#: home/templates/home/home.html:173 home/templates/home/home.html:191
+#: home/templates/home/home.html:209
+msgid ""
+"Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit "
+"amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus "
+"cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis."
+msgstr ""
+"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن "
+"ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+
+#: home/templates/home/home.html:317
+msgid "All Rights Reserved. &copy; 2018"
+msgstr "تمامی حقوق محفوظ است. &کپی 2018"
+
+#: home/templates/home/home.html:317 orders/templates/orders/cart.html:104
+msgid "ThewayShop"
+msgstr "فروشگاه"
+
+#: home/templates/home/home.html:317 orders/templates/orders/cart.html:104
+msgid " Design By :"
+msgstr "طراحی توسط :"
+
+#: home/templates/home/home.html:318 orders/templates/orders/cart.html:105
+msgid "html design"
+msgstr "طراحی html"
+
+#: orders/templates/orders/cart.html:25
+#: orders/templates/orders/checkout.html:13
+msgid "Shop"
+msgstr "فروشگاه"
+
+#: orders/templates/orders/cart.html:26
+msgid "Cart"
+msgstr "سبد خرید"
+
+#: orders/templates/orders/cart.html:43
+msgid "Images"
+msgstr "تصاویر"
+
+#: orders/templates/orders/cart.html:44
+msgid "Product Name"
+msgstr "نام محصول"
+
+#: orders/templates/orders/cart.html:45
+msgid "Price"
+msgstr "قیمت"
+
+#: orders/templates/orders/cart.html:46
+#: products/templates/products/detail.html:45
+msgid "Quantity"
+msgstr "تعداد"
+
+#: orders/templates/orders/cart.html:47
+#: orders/templates/orders/checkout.html:53
+msgid "Total"
+msgstr "مجموع"
+
+#: orders/templates/orders/cart.html:48
+msgid "Remove"
+msgstr "حذف"
+
+#: orders/templates/orders/cart.html:95
+#: orders/templates/orders/checkout.html:14
+msgid "Checkout"
+msgstr "تسویه حساب"
+
+#: orders/templates/orders/cart.html:104
+msgid "All Rights Reserved. &copy; 2018 "
+msgstr "تمامی حقوق محفوظ است. &کپی 2018"
+
+#: orders/templates/orders/checkout.html:32
+msgid "Shopping cart"
+msgstr "سبد حرید"
+
+#: orders/templates/orders/checkout.html:38
+msgid "Qty:"
+msgstr "تعداد"
+
+#: orders/templates/orders/checkout.html:39
+msgid " Subtotal:"
+msgstr "مجموع قیمت محصول"
+
+#: orders/templates/orders/checkout.html:49
+msgid "Your order"
+msgstr "سفارش شما"
+
+#: orders/templates/orders/checkout.html:52
+msgid "Product"
+msgstr "محصول"
+
+#: orders/templates/orders/checkout.html:57
+msgid "Sub Total"
+msgstr "مجموع قیمت محصول"
+
+#: orders/templates/orders/checkout.html:85
+msgid "Pay"
+msgstr "پرداخت"
+
+#: products/templates/products/detail.html:15
+msgid "Like"
+msgstr "پسندیدن"
+
+#: products/templates/products/detail.html:49
+msgid "Add to cart"
+msgstr "اضافه به سبد خرید"
+
+#: products/templates/products/detail.html:58
+msgid "Users Comments"
+msgstr "نظرات کاربران"
+
+#: products/templates/products/products_list.html:6
+msgid "All"
+msgstr "همه"
+
+#: templates/404.html:11
+msgid "Page not found"
+msgstr "صفحه مورد نظر یافت نشد."
+
+#: templates/base.html:13
+msgid "Shop online by django"
+msgstr "فروشگاه انلاین توسط جنگو"
+
+#: templates/inc/footer.html:8
+msgid "About"
+msgstr "درباره"
+
+#: templates/inc/footer.html:9
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+"quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo "
+"consequat."
+msgstr ""
+"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از "
+"طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که "
+"لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف "
+"بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و "
+"آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت "
+"بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در "
+"زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود "
+"در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل "
+"حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی "
+"اساسا مورد استفاده قرار گیرد."
+
+#: templates/inc/footer.html:24
+msgid "Information"
+msgstr "اطلاعات"
+
+#: templates/inc/footer.html:26 templates/inc/header.html:21
+msgid "About Us"
+msgstr "درباره ما"
+
+#: templates/inc/footer.html:27
+msgid "Customer Service"
+msgstr "خدمات مشتری"
+
+#: templates/inc/footer.html:28
+msgid "Our Sitemap"
+msgstr "نقشه سایت ما"
+
+#: templates/inc/footer.html:29
+msgid "Terms &amp; Conditions"
+msgstr "شرایط"
+
+#: templates/inc/footer.html:30
+msgid "Privacy Policy"
+msgstr "سیاست حفظ حریم خصوصی"
+
+#: templates/inc/footer.html:31
+msgid "Delivery Information"
+msgstr "اطلاعات تحویل"
+
+#: templates/inc/footer.html:37 templates/inc/header.html:24
+msgid "Contact Us"
+msgstr "تماس با ما"
+
+#: templates/inc/footer.html:42
+#, fuzzy
+#| msgid ""
+#| "                                        Address: Michael I. Days 3756 "
+#| "<br>\n"
+#| "                                        Preston Street Wichita,<br>\n"
+#| "                                        KS 67213\n"
+#| "                                    "
+msgid ""
+"\n"
+"                                        Address: Michael I. Days 3756 <br>\n"
+"                                        Preston Street Wichita,<br>\n"
+"                                        KS 67213\n"
+"                                    "
+msgstr "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ"
+
+#: templates/inc/header.html:20
+msgid "Home"
+msgstr "خانه"
+
+#: templates/inc/header.html:22
+msgid "Products"
+msgstr "محصولات"
+
+#: templates/inc/header.html:23
+msgid "Our Service"
+msgstr "خدمات مشتری"
+
+#: templates/inc/main_top.html:11 templates/inc/main_top.html:23
+#, python-format
+msgid "Off 10%%! Shop Now Man"
+msgstr "10 درصد  تخفیف! الان خرید کن"
+
+#: templates/inc/main_top.html:14 templates/inc/main_top.html:26
+#, python-format
+msgid "50%% - 80%% off on Fashion"
+msgstr "50٪٪ - 80٪٪ تخفیف در مد"
+
+#: templates/inc/main_top.html:17 templates/inc/main_top.html:29
+#, python-format
+msgid "20%% off Entire Purchase Promo code: offT20"
+msgstr "20٪٪ تخفیف کل کد تبلیغاتی خرید: offT20"
+
+#: templates/inc/main_top.html:20 templates/inc/main_top.html:32
+#, python-format
+msgid "Off 50%%! Shop Now"
+msgstr "50 درصد تخفیف!همین الان خرید کن."
+
+#: templates/inc/main_top.html:41
+msgid "¥ JPY"
+msgstr "¥ JPY"
+
+#: templates/inc/main_top.html:42
+msgid "$ USD"
+msgstr "$ USD"
+
+#: templates/inc/main_top.html:43
+msgid "€ EUR"
+msgstr "€ EUR"
+
+#: templates/inc/main_top.html:53
+msgid "Logout"
+msgstr "خارج شدن"
+
+#: templates/inc/main_top.html:56
+msgid "Register"
+msgstr "ثبت نام"
+
+#: templates/inc/main_top.html:57
+msgid "Login"
+msgstr "ورود"
